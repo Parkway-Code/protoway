@@ -1,0 +1,18 @@
+In order for data to be parsed, a format must be achieved at some point in the pipeline. This could happen as early as
+the sensor management boards, or the cloud resources, but preferably before the app itself. 
+
+The format proposed is as follows, in almost-json
+
+{
+garage
+
+spot: 
+{
+Floor
+id
+status
+
+}
+
+open/closedgarage
+}
