@@ -24,6 +24,14 @@ class garage:
             for i in range(0, floor_count):
                 filler.append(np.random.randint(0, size_per_floor, 1))
             self.model = pd.DataFrame(filler)
+    def update(self, ver):
+        if(ver == 0):
+
+        elif(ver == 1):
+        elif(ver == 2):
+        elif(ver == 3):
+
+
 
 
 mtype = sys.argv[1] 
