@@ -6,13 +6,28 @@ The format proposed is as follows, in almost-json
 {
 garage
 
+//if spot-garage
 spot: 
 {
 Floor
 id
 status
-
 }
+
+//if percent fill garage
+Pfill
+
+//if floor occupancy garage
+floor:
+{
+size
+fill
+}
+
+//if total occupancy
+size
+fill
 
 open/closedgarage
 }
+
